@@ -2,31 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Embedded Site Viewer</title>
+  <title>Your Domain - Cloaked Site</title>
   <style>
-    body, html {
-      margin: 0; padding: 0; height: 100%;
-      font-family: Arial, sans-serif;
-      background: #f0f0f0;
-    }
-    header {
-      background: #222;
-      color: white;
-      padding: 10px 20px;
-      font-weight: bold;
-      font-size: 18px;
-      user-select: none;
-    }
+    body, html { margin:0; padding:0; height:100%; }
     iframe {
-      width: 100%;
-      height: calc(100% - 44px); /* header height + padding */
+      width: 100vw;
+      height: 100vh;
       border: none;
-      display: block;
     }
   </style>
 </head>
 <body>
-  <header>http://89.117.19.1:55558/</header>
-  <iframe src="http://89.117.19.1:55558/"></iframe>
+  <iframe src="http://89.117.19.1:55558/" sandbox="allow-scripts allow-same-origin"></iframe>
 </body>
 </html>
